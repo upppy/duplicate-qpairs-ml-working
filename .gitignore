@@ -1,0 +1,33 @@
+# Ignore duplicate files in root folder only
+/model.pkl
+/cv.pkl
+/stopwords.pkl
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore virtual environments
+venv/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Python logs
+*.log
+
+# VSCode settings
+.vscode/
+
+# Secrets (if any future files added)
+*.env
+
+# Build folders
+dist/
+build/
